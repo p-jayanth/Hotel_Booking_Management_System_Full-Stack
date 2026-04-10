@@ -11,7 +11,7 @@ Prerequisites
 
 Installation
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/p-jayanth/Hotel_Booking_Management_System_Full-Stack.git
 cd your-repository
 npm install
 Configuration
