@@ -4,7 +4,7 @@ Project Overview
 
 This is a full-stack Hotel Booking Management System built using the MERN stack (MongoDB, Express, React, Node.js). The application allows users to register, log in, browse available hotels, and make bookings. It demonstrates real-world implementation of authentication, API integration, and database management.
 
-Features
+1.Features
   User Authentication (JWT-based login & registration)
   View and browse hotels
   Booking system for rooms
@@ -12,13 +12,13 @@ Features
   Responsive UI using React and Bootstrap
   Tech Stack
   
-Frontend
-    React.js
-    HTML, CSS
-    Bootstrap
-    Axios
+2.Frontend
+React.js
+HTML, CSS
+Bootstrap
+Axios
     
-Backend
+3.Backend
     Node.js
     Express.js
     JWT Authentication
@@ -27,27 +27,12 @@ Backend
     Mongoose
     
 Project Structure
-Hotel_Booking_Management_System/
-│
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.js
-│   └── package.json
-│
-└── README.md
+  <img width="603" height="755" alt="image" src="https://github.com/user-attachments/assets/e2dcfae1-4040-46b5-98f0-8fc33ce7391c" />
 
-Installation & Setup
-    Prerequisites
+
+
+Installation & Setup 
+Prerequisites
 
 Make sure you have:
     Node.js installed
