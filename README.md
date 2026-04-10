@@ -1,94 +1,31 @@
-Hotel Booking Management System (MERN Stack)
+FRONTEND
 
-Project Overview
+My MERN Stack Project
+Description
 
-This is a full-stack Hotel Booking Management System built using the MERN stack (MongoDB, Express, React, Node.js). The application allows users to register, log in, browse available hotels, and make bookings. It demonstrates real-world implementation of authentication, API integration, and database management.
-
-1.Features
-  User Authentication (JWT-based login & registration)
-  View and browse hotels
-  Booking system for rooms
-  REST API integration between frontend and backend
-  Responsive UI using React and Bootstrap
-  Tech Stack
-  
-2.Frontend
-React.js
-HTML, CSS
-Bootstrap
-Axios
-    
-3.Backend
-    Node.js
-    Express.js
-    JWT Authentication
-    Database
-    MongoDB
-    Mongoose
-    
-Project Structure
-  <img width="603" height="755" alt="image" src="https://github.com/user-attachments/assets/e2dcfae1-4040-46b5-98f0-8fc33ce7391c" />
-
-
-
-Installation & Setup 
+A web application built using the MERN stack for managing hotel bookings.
 Prerequisites
 
-Make sure you have:
-    Node.js installed
-    MongoDB (local or MongoDB Atlas)
-    Git installed
+    Node.js (v14 or higher)
+    MongoDB (running locally or a remote MongoDB URI)
 
-Step 1: Clone the Repository
-    git clone https://github.com/p-jayanth/Hotel_Booking_Management_System_Full-Stack.git
-    cd Hotel_Booking_Management_System_Full-Stack
+Installation
 
-Step 2: Install Dependencies
-    Backend
-    cd backend
-    npm install
-    Frontend
-    cd ../frontend
-    npm install
-    
-Step 3: Environment Variables
-    Create a .env file inside the backend folder:
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_secret_key
-    PORT=5000
-    
-Step 4: Run the Application
-    Start Backend Server
-    cd backend
-    npm start
-    Start Frontend
-    cd frontend
-    npm start
+git clone https://github.com/p-jayanth/Hotel_Booking_Management_System_Full-Stack.git
+cd your-repository
+npm install
+Configuration
+Create a .env file in the root directory and add your MongoDB URI:
 
-Step 5: Access the Application
-    Frontend → http://localhost:3000
-    Backend API → http://localhost:5000
-    
-Authentication Flow
-    User registers/logs in
-    Backend generates JWT token
-    Token is stored in frontend
-    Token is sent in API requests
-    Backend verifies token before allowing access
-    
-API Endpoints
-    Feature	Endpoint
-    Auth	/api/auth
-    Hotels	/api/hotels
-    Rooms	/api/rooms
-    Bookings	/api/bookings
-
-Future Improvements
-    Payment integration
-    Booking history dashboard
-    Admin panel
-    Real-time availability
-
+bash
+Copy code
+MONGODB_URI=mongodb://localhost:27017/mydatabase
+Running the Project
+bash
+Copy code
+npm start
+Usage
+Open your web browser and navigate to http://localhost:3000 to view the application.
 
 
 BACKEND
